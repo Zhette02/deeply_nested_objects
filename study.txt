@@ -1,0 +1,41 @@
+deeply nested objcects
+
+example of my mind and how I would represent it in code
+adhd
+stress
+overthinking 
+ideas
+THOUGHT SPAM
+core beleifs creating thougts
+
+
+I want this project to portray how my mind feels to live in. Specificly highlighting how chaotic it feels
+to exist with so many things going on. 
+
+
+I am wondering how I will portray thoughts that come from the senses of the outside world vs thoughts that
+come from inside. 
+
+Maybe each thought comes from both inside and outside and each has parameters
+
+final outcomes for this project:
+
+dwarf fortress grid displaying thought populating a mind and interacting with outside stimuli 
+
+scrolling text that looks like the terminal that moves down everytime a new thought generates.
+
+maybe a collage website that uses my drawings
+
+
+draft of elements:
+
+- core beleifs
+    - core beleifs determine if a thought is reacting negative or positivly, if a thought happens or not, 
+    what catagory that thought fits into
+
+- something to generate text or verbal content
+- something that generates thoughts (function?)
+- a template for the thoughts (that has  input from outside stimuli and core beleifs)
+- some way to display this data
+
+
