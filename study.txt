@@ -39,3 +39,21 @@ draft of elements:
 - some way to display this data
 
 
+thoughts and observations of about my mind:
+It will be literally impossible to capture how my mind works, or even a rough estimation of my experience.
+The goal of this project will be to make a representation of how I view my mind right now in this moment,
+which is chaotic and stressed, very out of control and almost a victim or a prisoner (feels cliche to say though).
+
+My concern with this project is that I am using a framework that is very dirivitive of the DPT conception of
+the mind where thoughts are generated from core beleifs that you hold from early childhood. Maybe thats fine 
+though.
+
+I feel I have very little control over my mind and thoughts. I feel like I am subject to the activities of 
+my mind and not in control of them. I feel detmermind by the "weather" of my emotions and if they will allow
+me to be control of my body or if ill be overwhelmed by thoughts and memories and stress and tasks.
+
+goals for presentation day:
+
+- text of thoughts dynamicly appearing on screen
+
+
