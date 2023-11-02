@@ -1,7 +1,7 @@
 div {
     display: flex;
     flex: 1;
-    background-color: black;
+    background-color: rgb(245, 214, 36);
     color: red;
     font-size: 5px;
     border-width: 3px;
@@ -15,3 +15,11 @@ body {
     min-height:  100vh;
 }
 
+#click{
+    display: flex;
+    font-size: x-large;
+    background-color: white;
+    color: black;
+    border: none;
+    justify-content: center;
+}

@@ -1,9 +1,11 @@
-//array for all the thoughts
+//array for all the thoughts in other js file thoughts_content.js
 let thoughts = [];
+
+//how many times the user clicks the mouse
 let clickCounter = 0;
 
 
-
+//constructor for all thought objects
 class thought {
   constructor(conscious, verbal, category, belief, size, volume, content){
     this.conscious = conscious;
@@ -20,17 +22,27 @@ class thought {
 
 function belief1() {
   let belief = "Money is Power";
+////each belief has a range of values within which thoughts are randomly created to reflect this belief on the minds environment
 
+
+////this belief makes thoughts that have a 20% chance of being experienced in the conscious mind as seen below in the if else statement
+////conscious (conscious = true) thoughts are displayed with a yellow backgroud and rightside up text to represent them being the decipherable to the thinker
+//// UNconscious thoughts (onscious = false) are displayed with white background and upside down text to represent that these thoughts are not decipherable to the thinker but are still present
   let conscious = Math.random();
   if(conscious > 0.8) {
     conscious = true
   } else {conscious = false}
-
+///verbal does not do anything yet.
+/// at this time all thoughts have content
   let verbal = Math.random();
   if (verbal > 0.2) {
     verbal = true
   }else{verbal = false}
 
+  ///the categories of thoughts show if they help the thinker exist (adaptive thoughts) or hurt them (maladaptive thoughts) the category corrasponds to the color of the text
+  /// productive = adaptive = green
+  /// destructive = maladaptive = red
+  /// neutral = no impact on wellness = white
   let category = Math.random();
   if (category > 0.5) {
     category = "productive"
@@ -39,14 +51,22 @@ function belief1() {
   } else {
     category = "neutral"
   }
-  
+
+  ///size of the thought corrasponds to how prominent this thought is in the thinkers mind. 
+  ///it is represented by the size of the text
   let size = Math.floor(Math.random() * 11);
+
+  ///volume is not being used at this time
   let volume = Math.floor(Math.random() * 6);
   
+  /////THIS IS THE TEXT DISPLAYED AS THE THOUGHTS (WRITTEN BY CHATGPT)
   let content = moneyIsPowerThoughts[Math.floor(Math.random() * moneyIsPowerThoughts.length)];
 
+  ////the thought being made
   thought1 = new thought(conscious, verbal, category, belief, size, volume, content);
   
+
+  ////the thought being spit out by the function
   return thought1;
 
 }
@@ -115,8 +135,20 @@ function belief3() {
 
 }
 
+// let conscious_values = [.8,.2, .]
+
+// belief(1)
+// if(number == 1){
+// if (conscious > conscious_values[1])
+
+// function belief(number){
+
+// }
+
+// }
 function belief4() {
   let belief = "friends matter a lot";
+
 
   let conscious = Math.random();
   if(conscious > 0.2) {

@@ -407,6 +407,6 @@ const friendsMatterALotThoughts = [
   "In the end, friends are deserters in your time of need, leaving you to suffer alone.",
   "Opening up to friends merely exposes your wounds for salt, intensifying your pain.",
   "Close friends are takers, not givers, ready to exploit your vulnerabilities when the chance arises.",
-  "Friendships are dangerous traps that ensnare the unsuspecting, leading to anguish and despair.",
+  "i love echo"
 ];
 
